@@ -24,6 +24,8 @@ SELECT PRODOTTO.PREZZO, PRODOTTO.NOME_PRODOTTO
 FROM PRODOTTO
 WHERE NOME_PRODOTTO LIKE '%TECH%'; 
 
+select * FROM PRODOTTO;
+
 -- Seleziona tutti gli ordini con una quantità maggiore di 10 o con un importo totale inferiore a 100 euro dalla tabella Ordini.
 
 SELECT *
